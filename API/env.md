@@ -91,6 +91,11 @@ set(name: string, value: number | string | null): Environment
 
 Возможные переменные окружения:
 cellInfo
+viewInfo
+modelFilters
+cardFilters
+cardContext
+selectedInfo
 
 [API Reference](API.md)
 
