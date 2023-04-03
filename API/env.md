@@ -90,12 +90,7 @@ set(name: string, value: number | string | null): Environment
 Устанавливает значение переменной окружения `key` в значение `value`. Возвращает `this`.
 
 Возможные переменные окружения:
-cellInfo
-viewInfo
-modelFilters
-cardFilters
-cardContext
-selectedInfo
+`cellInfo`, `viewInfo`, `modelFilters`, `DashboardFilters`, `cardFilters`, `cardContext`, `selectedInfo`
 
 [API Reference](API.md)
 
