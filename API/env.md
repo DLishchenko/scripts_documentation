@@ -80,6 +80,7 @@ loadFromMulticube(name: string, view?: string | null): Environment
 get(key: string, def?: any): any
 ```
 Возвращает значение переменной окружения `key`. При отсутствии этой переменной и наличии аргумента `def` возвращает `def`.
+`key` - 
 
 &nbsp;
 
@@ -88,6 +89,8 @@ set(name: string, value: number | string | null): Environment
 ```
 Устанавливает значение переменной окружения `key` в значение `value`. Возвращает `this`.
 
+Возможные переменные окружения:
+cellInfo
 
 [API Reference](API.md)
 
